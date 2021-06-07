@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+
+
+/* WEB ส่วน Header */
+
+header {
+    font-size: 0.7rem;
+    font-weight: bolder;
+    background-color: white;
+    height: 5rem;
+    width: 100vw;
+    text-align: center;
+    padding-top: 0rem;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+}
+
+.top-logo {
+    text-align: center;
+    display: inline-block;
+    padding-top: 0.3rem;
+    position: relative;
+    top: 1rem;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header ul {
+    display: inline-block;
+}
+
+header li {
+    display: inline-block;
+    position: relative;
+    padding-left: 3rem;
+    top: 0.3rem;
+    left: 5rem;
+}
+
+
+/* Main : About Us */
+
+main {
+    background-color: #333;
+    color: #fff;
+    height: 40rem;
+    width: 100vw;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    background-color: #3498DB;
+    color: white;
+    font-size: 0.9rem;
+    padding: 0.3rem 2rem;
+}
+
+
+/* Section 1 : Services*/
+
+#sc1 {
+    background-color: white;
+    color: #333;
+    height: 30rem;
+    width: 100vw;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 5rem;
+}
+
+.box {
+    color: #333;
+    text-align: center;
+    width: 20%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.readmore {
+    text-decoration: none;
+    color: #3498DB;
+    font-weight: bold;
+}
+
+
+/* Section 2 : Our Works */
+
+#sc2 {
+    background-color: whitesmoke;
+    color: #333;
+    height: 40rem;
+    width: 100vw;
+    text-align: left;
+    padding: 1rem;
+    padding-top: 3rem;
+    padding-left: 10rem;
+}
+
+.ourworks {
+    text-align: left;
+}
+
+.imageclients1 {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+
+/* Section 3 : Clients */
+
+#sc3 {
+    background-color: white;
+    color: #333;
+    height: 15rem;
+    width: 100vw;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-left: 10rem;
+}
+
+.clients {
+    text-align: left;
+}
+
+
+/* WEB ส่วน Footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: bold;
+    height: 10px;
+    width: 100vw;
+    text-align: left;
+    padding: 10rem;
+    padding-top: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+footer ul {
+    display: inline-block;
+}
+
+footer li {
+    display: inline-block;
+    padding-bottom: 1rem;
+    padding-left: 0rem;
+}
